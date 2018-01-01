@@ -1,0 +1,44 @@
+div {
+    display: block;
+}
+
+ul.roamings {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li.citem {
+    float: left;
+    /* text-align: inherit; */
+}
+
+.citem {
+    padding-right: 8px;
+    color: #657786;
+    display: inline;
+}
+
+.citem:hover {
+    text-decoration: underline;
+    cursor:pointer;
+    color:#FF691F;
+}
+
+.policy:hover{
+    text-decoration: none;
+    color:#657786;
+    cursor:auto;
+}
+
+.flex-module {
+    padding: 15px;
+    line-height: 18px;
+    color: #657786;
+    font-size: 12px;
+}
+
+.ads:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,76 @@
+div {
+    display: block;
+}
+
+h3 {
+    display: inline;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+}
+
+small {
+    line-height: 1;
+    font-size: 12px;
+}
+
+#subheader {
+    color:#FF691F;
+}
+
+#subheader:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.wtf-module {
+    padding: 15px;
+    line-height: 16px;
+    font-size:14px;
+}
+
+.wtf-module-header {
+    margin-bottom: 14px;
+}
+
+.wtf-module-recommendations {
+    line-height: 16px;
+    color:#657786;
+    font-size: 12px;
+}
+
+.item {
+    padding-bottom: 8px;
+    min-height: 48px;
+    display: block;
+    position: relative;
+    margin-top: 10px;
+    /* margin-bottom: 2px; */
+}
+
+.fullName {
+    word-break: break-all;
+    color: #14171a;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+b {
+    font-weight: normal;
+}
+
+.followButton {
+    align-items: center;
+    margin-top: 12px;
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 4px 12px;
+    margin-left: 50px;
+}
+
+.import {
+    color: #FF691F;
+    margin-top: 15px;
+}

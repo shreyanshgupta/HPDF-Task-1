@@ -1,0 +1,98 @@
+a{
+    text-decoration: none;
+}
+/* a:hover{
+    text-decoration: underline;
+} */
+
+.accountGroup a:hover{
+    text-decoration:underline;
+}
+
+.accountGroup {
+    font-family: "Segoe UI",Arial,sans-serif;
+    margin-top: 5px;
+    margin-left:90px;
+    /* margin-right: 20px; */
+    position: absolute;
+}
+
+.userName {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #14171A;
+}
+
+.screenNameLinkP {
+    font-size: 14px;
+    color: #66757F;
+}
+
+.screenNameLink {
+    color: #66757F;
+    font-size: 14px;
+}
+
+
+ul.Arrange {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li.stat {
+    float: left;
+    padding-right:16px;
+    padding-left: 16px;
+}
+
+.profileCardStats-statLabel {
+    color: #657786;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: .02em;
+    overflow: hidden;
+    line-height: 16px;
+}
+
+.profileCardStats-statLabel:hover {
+    color:#FF691F;
+}
+
+.profileCardStats-statValue {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 3px;
+    display: block;
+    color: #FF691F;
+}
+
+
+/*
+.Arrange--equal {
+    table-layout: fixed;
+    text-align: center;
+} */
+/*
+.Arrange {
+    box-sizing: border-box;
+    display: table;
+    margin: 40px;
+    min-width: 100%;
+    padding: 0;
+} */
+
+.profileCardStats {
+    font-family: "Segoe UI",Arial,sans-serif;
+    margin-top: 40px;
+    padding-left: 0;
+    /* margin-left: 1px; */
+    position: absolute;
+}
+
+#opi:hover {
+    text-decoration: none;
+    color: #FF691F;
+}

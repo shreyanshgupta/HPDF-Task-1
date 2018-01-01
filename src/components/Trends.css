@@ -1,0 +1,64 @@
+div {
+    display: block;
+}
+
+#module-trends {
+    padding: 15px;
+}
+
+.trends-header {
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+
+h3 {
+    color: #14171a;
+    display: inline;
+    line-height: 22px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a{
+    color: #FF691F;
+    padding: 0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.change-trends {
+    font-size: 12px;
+}
+
+.trending {
+    color: #657786;
+    font-size:12px;
+    margin-bottom: 10px;
+    line-height: 17px;
+}
+
+.trending:hover {
+    cursor: pointer;
+}
+
+.trend-items {
+    font-weight: bold;
+    color: #FF691F;
+    font-size: 14px;
+    word-wrap: break-word;
+}
+
+.trend-items:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.trend-items-count {
+    max-height: 51px;
+    overflow:hidden;
+    font-weight: normal;
+}
