@@ -7,21 +7,21 @@ import './TweetBox.css';
 
 const style = {
     fontFamily: '"Segoe UI",Arial,sans-serif',
-    height: 58,
-    width: 588,
-    backgroundColor: '#FFF0E8',
-    marginLeft: 10,
-    marginRight: 10,
-    marginTop: 10,
     position:'absolute',
+    height: 58,
     top:48,
-    left:390
+    width: 588,
+    left:390,
+    marginLeft: 10,
+    marginTop: 10,
+    marginRight: 10,
+    backgroundColor: '#FFF0E8'
 }
 
 const imgStyle = {
-    left:'28px',
+    top:'13px',
     position:'absolute',
-    top:'13px'
+    left:'28px'
 }
 
 export default class TweetBox extends React.Component {
