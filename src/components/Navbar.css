@@ -1,0 +1,98 @@
+.list {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+.itemlist {
+    float:left;
+    font-family:"Segoe UI", "Frutiger", "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-weight:bold;
+    font-size:14px;
+    /*border-right:1px solid #bbb;*/
+}
+
+.itemlist::first-letter {
+    font-size: 30px;
+    color:#FF691F;
+}
+
+.itemlist a {
+    display:block;
+    color:#66757f;
+    text-align:center;
+    text-decoration:none;
+    padding:14px 12px;
+}
+
+.itemlist a:hover {
+    color: #FF691F;
+    border-bottom:2px solid #FF8C00;
+}
+
+.active {
+    color:#FF691F;
+    border-bottom:2px solid #FF8C00;
+}
+
+.brandLogo {
+    color:#FF691F;
+    padding-right: ;
+    position: relative;
+    float: left;
+    font-size: 21px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+
+input[type=text].inputBar {
+    box-sizing: border-box;
+    border: 1px solid #e6ecf0;
+    border-radius: 21px;
+    color: #14171a;
+    display: block;
+    height: 32px;
+    line-height: 16px;
+    padding:8px 32px 8px 12px;
+    font-size: 12px;
+    background-color: #f5f8fa;
+    width: 100%;
+    /* background-image: url('http://www.pvhc.net/img8/tagticembcmbaasmpixy.png');
+    background-repeat: no-repeat; */
+}
+
+.inputBar {
+    margin-left: 0;
+    padding-right: 500px;
+    margin-right: 30%;
+}
+
+input:focus {
+    border: 2px solid #FF691F;
+    background-color: #fff;
+    color: #14171a;
+    opacity: 1;
+}
+
+.tweetButton {
+    float: right;
+    border-radius: 100px;
+    box-shadow: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    color: white;
+    box-sizing: border-box;
+    align-items: flex-start;
+    background-color: #FF874B;
+    border: transparent;
+    margin: 0;
+    z-index: 5;
+}

@@ -85,32 +85,32 @@ export default class Feeds extends React.Component {
                     <div className="feedModule">
                         <div className="stream-item-header">
                             <a href="https://twitter.com/CNN" className="profile">
-                                <Avatar src="https://goo.gl/cKMquq" className="avatar"/>
+                                <Avatar src="https://goo.gl/fKtpBc" className="avatar"/>
                                 <span className="FullNameGroup">
-                                    <strong className="fullname u-textTruncate">CNN</strong>
+                                    <strong className="fullname u-textTruncate">Times of India</strong>
                                     <span>&rlm;</span>
                                     <span className="UserBadges">
                                         <span className="Icon"><FontAwesomeIcon icon={faCheckCircle} /></span>
                                     </span>
                                     <span>&nbsp;</span>
                                 </span>
-                                <span className="username-dir">@<b>CNN</b></span>
+                                <span className="username-dir">@<b>timesofindia</b></span>
                             </a>
-                            <small className="time">&nbsp;.&nbsp;24m</small>
-                            <div className="profileTweetAction">
-                                <div className="dropdown" style={{position:'relative',float:'right'}}>
+                            <small className="time">&nbsp;.&nbsp;44m</small>
+                            <span className="profileTweetAction">
+                                <span className="dropdown" style={{position:'absolute',float:'right'}}>
                                     <FontAwesomeIcon icon={faAngleDown} className="toggle"/>
-                                </div>
-                            </div>
+                                </span>
+                            </span>
                         </div>
                         <div>
                             <p className="tweetsize">
-                                Trump appears to claim credit for recent reports saying that 2017 was the safest year in global commercial air travel's recorded history, but it's been nearly a decade since there was a fatal US commercial passenger airline crash in the United States <a href="http://cnn.it/2CFbamP" style={{color:'#FF691F',textDecoration:'none'}}>http://cnn.it/2CFbamP</a>
+                                Amid friction, India to host CPC team <a href="http://toi.in/qwnpjY/a24gk" style={{color:'#FF691F',textDecoration:'none'}}>http://toi.in/qwnpjY/a24gk</a>
                             </p>
                         </div>
                         <div className="media" style={{marginTop:'10px',marginLeft:'50px'}}>
                             <div className="adaptiveMedia">
-                                <img src="https://goo.gl/k2Qz9T" className="adaptiveMedia"/>
+                                <img src="https://goo.gl/Lks9yp" className="adaptiveMedia"/>
                             </div>
                         </div>
                         <div className="stream-footer">
@@ -150,7 +150,7 @@ export default class Feeds extends React.Component {
                                 </span>
                                 <span className="username-dir">@<b>CNN</b></span>
                             </a>
-                            <small className="time">&nbsp;.&nbsp;24m</small>
+                            <small className="time">&nbsp;.&nbsp;1hr</small>
                             <div className="profileTweetAction">
                                 <div className="dropdown" style={{position:'relative',float:'right'}}>
                                     <FontAwesomeIcon icon={faAngleDown} className="toggle"/>
@@ -159,12 +159,12 @@ export default class Feeds extends React.Component {
                         </div>
                         <div>
                             <p className="tweetsize">
-                                Trump appears to claim credit for recent reports saying that 2017 was the safest year in global commercial air travel's recorded history, but it's been nearly a decade since there was a fatal US commercial passenger airline crash in the United States <a href="http://cnn.it/2CFbamP" style={{color:'#FF691F',textDecoration:'none'}}>http://cnn.it/2CFbamP</a>
+                                This burger company's stock soared after it launched a customer rewards program on blockchain technology <a href="http://cnn.it/2EDMhZ7" style={{color:'#FF691F',textDecoration:'none'}}>http://cnn.it/2EDMhZ7</a>
                             </p>
                         </div>
                         <div className="media" style={{marginTop:'10px',marginLeft:'50px'}}>
                             <div className="adaptiveMedia">
-                                <img src="https://goo.gl/k2Qz9T" className="adaptiveMedia"/>
+                                <img src="https://goo.gl/4rQSPz" className="adaptiveMedia"/>
                             </div>
                         </div>
                         <div className="stream-footer">
