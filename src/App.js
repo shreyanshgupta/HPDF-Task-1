@@ -14,7 +14,7 @@ class App extends Component {
     return (
         <MuiThemeProvider>
             <div>
-                <Applet2 />
+                {/* <Applet2 /> */}
                 <Navbar />
                 <WhoToFollow />
                 <ProfileCard />
