@@ -1,6 +1,6 @@
 import React from 'react';
 //import AppBar from 'material-ui/AppBar';
-import './Applet2.css';
+import './Navbar.css';
 import Paper from 'material-ui/Paper';
 import {Toolbar, ToolbarGroup} from 'material-ui/Toolbar';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
@@ -61,10 +61,10 @@ export default class Navbar extends React.Component{
                 <Toolbar style={tStyle}>
                     <ToolbarGroup firstChild={false}>
                         <ul className="list">
-                            <li className="itemlist"><a href="javascript:void(0)" className='active'><FontAwesomeIcon icon={faHome} size='lg' spin/>&nbsp;<span style={fStyle}>H</span>ome</a></li>
+                            <li className="itemlist"><a href="javascript:void(0)" className='active'><FontAwesomeIcon icon={faHome} size='lg'/>&nbsp;<span style={fStyle}>H</span>ome</a></li>
                             <li className="itemlist"><a href="javascript:void(0)"><FontAwesomeIcon icon={faBolt} size='lg' />&nbsp;<span style={fStyle}>M</span>oments</a></li>
                             <li className="itemlist"><a href="javascript:void(0)"><FontAwesomeIcon icon={faBell} size='lg' />&nbsp;<span style={fStyle}>N</span>otifications</a></li>
-                            <li className="itemlist"><a href='javascript:void(0)'><FontAwesomeIcon icon={faEnvelope} size='lg' spin/>&nbsp;<span style={fStyle}>M</span>essages</a></li>
+                            <li className="itemlist"><a href='javascript:void(0)'><FontAwesomeIcon icon={faEnvelope} size='lg'/>&nbsp;<span style={fStyle}>M</span>essages</a></li>
                         </ul>
                     </ToolbarGroup>
                     <ToolbarGroup>
