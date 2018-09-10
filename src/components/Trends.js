@@ -7,9 +7,9 @@ const style ={
     height: 476,
     width: 290,
     display: 'inline-block',
-    marginTop:284,
-    position:'absolute',
-    marginLeft:100
+    marginTop:280,
+    position:'relative',
+    marginLeft:80
 };
 
 export default class Trends extends React.Component {

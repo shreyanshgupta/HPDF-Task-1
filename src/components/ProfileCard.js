@@ -6,8 +6,8 @@ import './ProfileCard.css';
 const style = {
     height: 213,
     width: 290,
-    top:56,
-    marginLeft: 100,
+    top:55,
+    marginLeft: 80,
     // textAlign: 'center',
     position:'absolute'
 };
@@ -26,8 +26,8 @@ export default class ProfileCard extends React.Component {
     render(){
         return(
             <Paper style={style} zDepth={1} rounded={false}>
-                <img src="https://goo.gl/WzJAvD" alt="backgroundImage" width="290" height="95" />
-                <div>
+                <img src="https://goo.gl/WzJAvD" alt="coverImage" width="290" height="95" style={{position:'absolute'}}/>
+                <div style={{position:'relative',marginTop:'100px'}}>
                     <a href="https://goo.gl/LyJPNA"><Avatar src="https://goo.gl/avLhwR" size={68} style={profileCardStyle} /></a>
                     <div className="accountGroup">
                         <a href="https://goo.gl/LyJPNA" className="userName">Shreyansh&nbsp;Gupta</a><br/>

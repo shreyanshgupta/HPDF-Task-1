@@ -7,15 +7,23 @@ import {faComment,faHeart,faEnvelope} from '@fortawesome/fontawesome-free-regula
 import Divider from 'material-ui/Divider';
 import './Feeds.css';
 const style = {
-    fontFamily: '"Segoe UI",Arial,sans-serif',
-    height:450,
-    width:588,
-    position:'relative',
-    left:390,
-    top:108,
-    marginLeft: 10,
-    marginTop: 10,
-    marginRight: 10
+    base: {
+		fontFamily: '"Segoe UI",Arial,sans-serif',
+		width:588,
+		position:'relative',
+		marginLeft: 378,
+		marginRight: 10
+    // height:450,
+    // left:390,
+    // top:108,
+    // marginTop: -415,
+	},
+
+	heightbase:{
+		marginTop: -415
+	}
+
+
 }
 
 const divstyle={
@@ -27,7 +35,7 @@ export default class Feeds extends React.Component {
     render(){
         return(
             <div>
-                <Paper style={style} zDepth={0}>
+                <Paper style={Object.assign({},style.base,style.heightbase)} zDepth={0}>
                     <div className="feedModule">
                         <div className="stream-item-header">
                             <a href="https://twitter.com/CNN" className="profile">
@@ -81,7 +89,7 @@ export default class Feeds extends React.Component {
 
 
                 {/* <Divider style={divstyle} /> */}
-                <Paper style={style} zDepth={0}>
+                <Paper style={style.base} zDepth={0}>
                     <div className="feedModule">
                         <div className="stream-item-header">
                             <a href="https://twitter.com/CNN" className="profile">
@@ -98,7 +106,7 @@ export default class Feeds extends React.Component {
                             </a>
                             <small className="time">&nbsp;.&nbsp;44m</small>
                             <span className="profileTweetAction">
-                                <span className="dropdown" style={{position:'absolute',float:'right'}}>
+                                <span className="dropdown" style={{position:'relative',marginLeft:'-108px' }}>
                                     <FontAwesomeIcon icon={faAngleDown} className="toggle"/>
                                 </span>
                             </span>
@@ -135,7 +143,7 @@ export default class Feeds extends React.Component {
 
 
                 {/* <Divider style={divstyle} /> */}
-                <Paper style={style} zDepth={0}>
+                <Paper style={style.base} zDepth={0}>
                     <div className="feedModule">
                         <div className="stream-item-header">
                             <a href="https://twitter.com/CNN" className="profile">

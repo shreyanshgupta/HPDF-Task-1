@@ -9,12 +9,12 @@ const style = {
     fontFamily: '"Segoe UI",Arial,sans-serif',
     position:'absolute',
     height: 58,
-    top:48,
+    top:55,
     width: 588,
-    left:390,
-    marginLeft: 10,
-    marginTop: 10,
-    marginRight: 10,
+    // left:390,
+    marginLeft: 378,
+    // marginTop: 10,
+    // marginRight: 10,
     backgroundColor: '#FFF0E8'
 }
 

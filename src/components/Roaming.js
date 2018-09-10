@@ -9,9 +9,11 @@ const style = {
     fontFamily:'"Segoe UI",Arial,sans-serif',
     height: 156,
     width: 290,
-    position:'absolute',
-    left:1000,
-    top:389
+    position:'relative',
+    // left:1000,
+    marginLeft:975,
+    marginTop:-375,
+    // top:389
 }
 
 export default class Roaming extends React.Component {

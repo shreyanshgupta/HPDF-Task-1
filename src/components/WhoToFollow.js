@@ -12,8 +12,9 @@ const style= {
     height: 316,
     width: 290,
     position:'absolute',
-    left:1000,
-    top:56
+    // left:1000,
+    marginLeft: 975,
+    top:55
 }
 
 const buttonStyle ={
@@ -41,17 +42,13 @@ export default class WhoToFollow extends React.Component{
             <Paper zDepth={1} style={style}>
                 <div className="wtf-module">
                     <div className="wtf-module-header">
-                        <h3>Who to follow</h3>
-                        &nbsp;<small>.</small>&nbsp;
-                        <span id="subheader"><small>Refresh</small></span>
-                        &nbsp;<small>.</small>&nbsp;
-                        <span id="subheader"><small>View all</small></span>
+                        <h3>Who to follow</h3>&nbsp;<small>&middot;</small>&nbsp;<span id="subheader"><small>Refresh</small></span>&nbsp;<small>&middot;</small>&nbsp;<span id="subheader"><small>View all</small></span>
                     </div>
                     <div className="wtf-module-recommendations">
                         <div className="item">
                             <div style={{display:'flex',marginBottom:'4px'}}></div>
                             <div style={{float:'right',marginTop:'0',color:'#ccd6dd',width:'10px',height:'10px',cursor:'pointer'}}><span style={{display:'inline-block',fontStyle:'normal',verticalAlign:'baseline',position:'relative'}}><FontAwesomeIcon icon={faTimes} /></span></div>
-                            <div><Avatar src="https://goo.gl/xXsLuP" size={48} style={{position:'absolute',left:0}}/></div>
+                            <div><Avatar src="https://goo.gl/Ayyrrb" size={48} style={{position:'absolute',left:0}}/></div>
                             <span style={{position:'absolute',width:'100%',overflow:'hidden',textOverflow:'ellipsis',whiteSpace:'nowrap',marginLeft:'60px'}}>
                                 <strong className="fullName">Armin van Buuren</strong>
                                 <span>&nbsp;</span>

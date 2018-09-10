@@ -8,7 +8,7 @@ div {
     left: 70px;
 }
 
-input[type=text] {
+input[type=text]#textbox {
     padding-left: 8px;
     padding-top: 8px;
     padding-bottom:8px;

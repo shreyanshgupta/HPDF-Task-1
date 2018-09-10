@@ -5,7 +5,7 @@ import Paper from 'material-ui/Paper';
 import {Toolbar, ToolbarGroup} from 'material-ui/Toolbar';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import {faEnvelope, faBell} from '@fortawesome/fontawesome-free-regular';
-import {faBolt, faHome} from '@fortawesome/fontawesome-free-solid';
+import {faBolt, faHome, faSearch} from '@fortawesome/fontawesome-free-solid';
 import {faTwitter} from '@fortawesome/fontawesome-free-brands';
 import List from 'material-ui/List/List';
 import ListItem from 'material-ui/List/ListItem';
@@ -16,10 +16,12 @@ const tStyle={
     position:'fixed',
     width:'100%',
     backgroundColor: '#fff',
-    height:50,
+    height:45,
     top:0,
+    zIndex:1,
+    //padding: '0px 100px',
     //display:'block',
-    alignItems:'center'
+    //alignItems:'center'
 }
 
 // const ulStyle = {
@@ -44,6 +46,22 @@ const fStyle = {
     fontSize:'15px',
 }
 
+const tpStyle = {
+    padding: '0px 80px',
+    position:'fixed',
+    width:'100%',
+    backgroundColor: '#fff',
+    height:45,
+    top:0,
+    zIndex:1,
+}
+
+const imgStyle = {
+    textAlign: 'center',
+    // position:'absolute',
+    // left:'28px'
+}
+
 // const aStyle={
 //     display:'block',
 //     color:'#66757f',
@@ -58,7 +76,7 @@ export default class Navbar extends React.Component{
     render(){
         return(
             <Paper zDepth={1} style={tStyle}>
-                <Toolbar style={tStyle}>
+                <Toolbar style={tpStyle}>
                     <ToolbarGroup firstChild={false}>
                         <ul className="list">
                             <li className="itemlist"><a href="javascript:void(0)" className='active'><FontAwesomeIcon icon={faHome} size='lg'/>&nbsp;<span style={fStyle}>H</span>ome</a></li>
@@ -67,18 +85,24 @@ export default class Navbar extends React.Component{
                             <li className="itemlist"><a href='javascript:void(0)'><FontAwesomeIcon icon={faEnvelope} size='lg'/>&nbsp;<span style={fStyle}>M</span>essages</a></li>
                         </ul>
                     </ToolbarGroup>
+
                     <ToolbarGroup>
                         <a href="javascript:void(0)" size='lg' className='brandLogo'><FontAwesomeIcon icon={faTwitter} /></a>
                     </ToolbarGroup>
-                    <ToolbarGroup>
+
+                    <ToolbarGroup className='searchinput'>
                         <input type='text' placeholder='Search Twitter' className='inputBar'/>
+                        <FontAwesomeIcon icon={faSearch} size='lg' className='searchIcon'/>
                     </ToolbarGroup>
-                    <ToolbarGroup>
-                        <Avatar src="http://bit.ly/2C5NN8T" size={32}/>
+
+                    <ToolbarGroup className='avatarposition'>
+                        <Avatar src="https://goo.gl/avLhwR" size={32} style={imgStyle}/>
                     </ToolbarGroup>
+
                     <ToolbarGroup>
                         <button className="tweetButton">Tweet</button>
                     </ToolbarGroup>
+
                 </Toolbar>
             </Paper>
         );
